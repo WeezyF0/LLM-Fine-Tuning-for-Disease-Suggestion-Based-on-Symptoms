@@ -46,8 +46,7 @@ This project involves fine-tuning the **Llama 3.2 (1B)** Large Language Model to
 ### Confusion Matrix
 The model was evaluated on a subset of test data. The confusion matrix below shows a strong diagonal correlation, indicating high accuracy in mapping symptoms to the correct disease labels.
 
-![Confusion Matrix](<img width="1126" height="989" alt="Untitled" src="https://github.com/user-attachments/assets/8b9f44f0-df63-4f30-b7e6-403bc00c805a" />
-)
+![Confusion Matrix](confusion_matrix.jpeg)
 
 ### Manual Test Cases
 The model was tested with natural language inputs to verify robustness:
