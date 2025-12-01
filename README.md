@@ -3,7 +3,6 @@
 ![Python](https://img.shields.io/badge/Python-3.12-blue)
 ![Model](https://img.shields.io/badge/Model-Llama_3.2_1B-green)
 ![Library](https://img.shields.io/badge/Library-Unsloth-yellow)
-![Status](https://img.shields.io/badge/Status-Educational_Only-red)
 
 ## 📌 Project Overview
 This project involves fine-tuning the **Llama 3.2 (1B)** Large Language Model to act as a medical assistant. The model accepts natural language descriptions of symptoms and suggests potential disease patterns based on a Kaggle dataset.
@@ -47,7 +46,8 @@ This project involves fine-tuning the **Llama 3.2 (1B)** Large Language Model to
 ### Confusion Matrix
 The model was evaluated on a subset of test data. The confusion matrix below shows a strong diagonal correlation, indicating high accuracy in mapping symptoms to the correct disease labels.
 
-![Confusion Matrix](confusion_matrix.png)
+![Confusion Matrix](<img width="1126" height="989" alt="Untitled" src="https://github.com/user-attachments/assets/8b9f44f0-df63-4f30-b7e6-403bc00c805a" />
+)
 
 ### Manual Test Cases
 The model was tested with natural language inputs to verify robustness:
@@ -58,11 +58,6 @@ The model was tested with natural language inputs to verify robustness:
 | "stomach pain, acidity, ulcers on tongue" | GERD | **GERD** |
 | "Fever, headache, body pain" | Dengue / Malaria | **Malaria** (Valid match) |
 
----
-
-## 🎥 Demo Video
-**[Click Here to Watch the Project Demo Video](YOUR_VIDEO_LINK_HERE)**
-*(Video covers: Training summary, Confusion Matrix analysis, and Live Inference)*
 
 ---
 
