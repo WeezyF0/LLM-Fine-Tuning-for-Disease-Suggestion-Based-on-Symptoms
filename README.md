@@ -8,7 +8,7 @@
 This project involves fine-tuning the **Llama 3.2 (1B)** Large Language Model to act as a medical assistant. The model accepts natural language descriptions of symptoms and suggests potential disease patterns based on a Kaggle dataset.
 
 **Key Features:**
-* **Natural Language Understanding:** Processes symptoms typed in plain English (e.g., "stomach pain" instead of `stomach_pain`).
+* **Natural Language Understanding:** Processes symptoms typed in plain English.
 * **Structured Output:** Returns a JSON-style response with the Disease Name, an Explanation, and a Mandatory Safety Disclaimer.
 * **Efficient Training:** Fine-tuned using **Unsloth** and **QLoRA** (4-bit quantization) on a free Google Colab T4 GPU.
 
@@ -21,7 +21,6 @@ This project involves fine-tuning the **Llama 3.2 (1B)** Large Language Model to
 * `LLM_Fine_Tuning_Assignment.ipynb` - The complete Google Colab notebook with data prep, training, and evaluation code.
 * `train.jsonl` & `test.jsonl` - The preprocessed dataset used for fine-tuning (80/20 split).
 * `confusion_matrix.png` - Visualization of the model's performance on the test set.
-* `adapter_model.safetensors` - (In subfolder) The saved LoRA weights of the fine-tuned model.
 
 ---
 
